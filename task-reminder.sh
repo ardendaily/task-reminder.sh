@@ -33,5 +33,13 @@ else
 	elif [ $dothisplease == "start" ]; then
 		echo "bug" > $statusfile
 		echo "notifications started."
+	else
+		echo "----   task-reminder.sh   ----"
+		echo ""
+		echo "usage: "
+		echo ""
+		echo "\`task-reminder.sh\`        pops notification"
+		echo "\`task-reminder.sh stop\`   stops popups"
+		echo "\`task-reminder.sh start\`  starts popups"
 	fi
 fi

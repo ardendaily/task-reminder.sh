@@ -8,6 +8,12 @@ bootstraps <a href="http://taskwarrior.org">taskwarrior</a> to notify-send.
 
 supposes you already have a) taskwarrior set up and b) have some tasks to list.
 
+#### possible first steps
+
+i'm assuming you use ubuntu because that's what **I** use. you might have to install some dependencies
+
+    sudo apt-get install libnotify-bin
+
 #### step the first - clone repo
 
     mkdir ~/bin
@@ -48,4 +54,3 @@ attaboy:
 
     task-reminder.sh start
 
-    
