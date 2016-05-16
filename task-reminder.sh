@@ -3,7 +3,7 @@
 # gentle reminders via FUCKING POPUPS
 
 # not portable. suck it
-statusfile="$HOME/bin/task-reminder/.task-reminder-status"
+statusfile="$HOME/bin/task-reminder.sh/.task-reminder-status"
 
 # init on first run or if status file decimated
 if [ ! -e $statusfile ]; then

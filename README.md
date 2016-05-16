@@ -18,13 +18,13 @@ i'm assuming you use ubuntu because that's what **I** use. you might have to ins
 
     mkdir ~/bin
     cd ~/bin
-    git clone https://github.com/ardendaily/task-reminder.sh
+    git clone https://github.com/ardendaily/task-reminder.sh.git
 
 #### step the second - add to $PATH
 
 add the following to the bottom of ~/.bashrc
 
-`export PATH=$PATH:$HOME/bin:$HOME/bin/task-reminder`
+`export PATH=$PATH:$HOME/bin:$HOME/bin/task-reminder.sh`
 
 re-source your .bashrc
 
@@ -37,7 +37,7 @@ notice that we've now established a nice place for all of your turbohacker scrip
 edit your crontab with `crontab -e` (and when prompted, fuck it, choose NANO)
 
 add the following line to the bottom of your crontab
-`0,30 * * * $HOME/bin/task-reminder/task-reminder.sh`
+`0,30 * * * * $HOME/bin/task-reminder.sh/task-reminder.sh`
 
 #### now kick back with an ice-cold brewski
  ![oh shit waddup](./screenshot.png "tasty screenshot")
