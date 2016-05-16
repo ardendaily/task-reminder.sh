@@ -35,3 +35,17 @@ add the following line to the bottom of your crontab
 
 #### now kick back with an ice-cold brewski
  ![oh shit waddup](./screenshot.png "tasty screenshot")
+
+## BUT WAIT WHAT IF I TIRE OF POPUPS
+
+ you'd never. but if you do:
+
+    task-reminder.sh stop
+
+## AND TO REACTIVATE THEM?
+
+attaboy:
+
+    task-reminder.sh start
+
+    
