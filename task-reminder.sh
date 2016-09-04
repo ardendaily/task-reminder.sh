@@ -18,7 +18,7 @@ if [ -z $1 ]; then
 	# temp file says i want popups
 	if [ $catstats == "bug" ]; then
 		export DISPLAY=:0.0
-		/usr/bin/notify-send "$(task minimal)" -t 3500 
+		/usr/bin/notify-send TO-DO "$(task minimal)" -t 3500 
 	fi
 
 #user intervention with ARGUMENT
